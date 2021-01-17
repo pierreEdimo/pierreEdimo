@@ -2,11 +2,14 @@ import './landing.css';
 import mobileImage from '../mobileImage.jpg';
 import computer from '../computer.PNG';
 import { Link } from 'react-router-dom';
-
+import Footer from '../footer/footer';
+import uservoice from '../uservoice.PNG';
+import newsroom from '../newsroom.PNG';
 
 function Landing() {
     return (
         <div>
+
             <div className="banner ">
                 <div className="container banner-intro" >
                     <h1 className="title main-title "  >Patrice Edimo</h1>
@@ -36,6 +39,35 @@ function Landing() {
                 </div>
             </div>
 
+            <div className="work-container">
+                <div className="container" >
+                    <div className="col col-left" >
+                        <div className="image-container left" >
+                            <img src={newsroom} alt="phone" />
+                        </div>
+                        <a className="work-title" href="">Newsroom</a>
+                        <p className="description" >An application where registered Authors can share articles
+                        about multiple. Users can
+                        login, logout, and bookmark their favorites articles
+                             </p>
+                        <p>Personal Project.Stack: Flutter, ASP.net Core </p>
+                    </div>
+                    <div className="vertical-spacing" ></div>
+                    <div className="col col-right" >
+                        <div className="image-container right">
+                            <img src={uservoice} alt="phone" />
+                        </div>
+
+                        <a className="work-title" href="">Uservoice</a>
+                        <p className="description" >An application where registered users can review and rate
+                        diverses items like video Games, Movies, tv show , comics
+                        and books
+                             </p>
+                        <p>Personal Project.Stack: Flutter, ASP.net Core </p>
+                    </div>
+                </div>
+            </div>
+
             <div className="about-container" >
                 <div className="container" >
                     <div className="col col-left" >
@@ -52,7 +84,7 @@ function Landing() {
                 </div>
             </div>
 
-
+            <Footer />
 
         </div>
     )
