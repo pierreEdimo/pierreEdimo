@@ -7,9 +7,8 @@ function AppHeader (){
             <div className=" app-header-content" >
                 <Link to="/" >Home</Link>
                 <Link to="/about" >About</Link>
-                <a href="www.facebook.com" >Portfolio</a>
-                <a href="www.facebook.com" >Contact</a>
-                <a href="www.facebook.com" >Blog</a>
+                <a href="www.facebook.com" >Work</a>
+                <Link to="/contact" >Contact</Link>
             </div>
         </header>
     ); 
