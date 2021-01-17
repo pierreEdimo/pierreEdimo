@@ -1,0 +1,59 @@
+@import '../Theme/Mixin.scss'; 
+@import '../Theme/Variables.scss'; 
+
+.contact-container{
+    @include fullpage; 
+    display: flex;
+    align-items: center;
+
+    .container{
+        .subtitle{
+            font-size: 26px;
+            line-height: 1.5em ;
+            font-weight: 700;
+            margin-bottom: 40px ;
+            display: block;
+        }
+
+        div{
+            margin-bottom: 40px;
+            p{
+                margin-bottom: 6px;
+            }
+
+            svg{
+                width: 34px;
+                height: 34px;
+                margin-right: 15px;
+            }
+
+            .bi-linkedin{
+                color:$blue; 
+            }
+
+            .bi-github{
+                color:$green; 
+            }
+        }
+
+        .email-link{
+            font-size: 16px;
+            color: $black; 
+            line-height: 1.5em;
+            text-decoration: none;
+        }
+
+        p+p{
+            font-size: 16px;
+            color: $black; 
+            font-weight: 700;
+        }
+
+        .subtitle-info{
+            font-size: 16px;
+            color: $light-grey;
+            line-height: 1.5em;
+            font-weight: 700;
+        }
+    }
+}
