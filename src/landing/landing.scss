@@ -1,0 +1,119 @@
+@import '../Theme/Variables.scss'; 
+@import '../Theme/Mixin.scss'; 
+
+.banner{
+    @include fullpage; 
+    background-color: $dark-blue;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+   
+
+    h1{
+        font-size: 18px ;
+        margin-bottom: 2em ;
+        text-transform: uppercase;
+        line-height: 1.5em;
+        color: $light-grey;
+        font-weight: 400;
+        letter-spacing: 0.07em;
+        height: auto;
+    }
+
+    h2{
+        color: $white;
+    }
+
+   .w3-display-bottommiddle{
+       span{
+           cursor: pointer;
+           color: $white; 
+           display:flex; 
+           justify-content: center; 
+           align-items: center;
+           margin-bottom:  50px; 
+           font-weight: bold; 
+
+           svg{
+               margin-right: 5px; 
+           }
+       }
+
+       span:hover{
+           color: $dark-grey; 
+       }
+   }
+}
+
+.project-container{
+    @include fullpage; 
+
+    .container{
+        height: inherit;
+        width: inherit;
+        
+        @include standard-flex; 
+
+        .col-right{
+            p{
+                @include text-size; 
+            }
+
+            a{
+                @include outlined-grey-button; 
+            }
+
+            a:hover{
+                @include outlined-grey-hover; 
+            }
+
+           
+        }
+
+        .col-left{
+           img{
+               @include standard-img; 
+           }
+        }
+    }
+}
+
+
+.about-container{
+    @include fullpage; 
+
+ 
+    .container{
+        height: inherit;
+        width: inherit;
+
+        @include standard-flex; 
+
+        .col-left{
+            img{
+                @include standard-img; 
+            }
+        }
+
+        .col-right{
+            p{
+               @include text-size; 
+            }
+
+            a{
+                @include outlined-grey-button; 
+            }
+
+            a:hover{
+               @include outlined-grey-hover; 
+            }
+
+        }
+    }
+
+
+}
+
+
+
+
