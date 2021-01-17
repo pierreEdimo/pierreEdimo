@@ -1,0 +1,20 @@
+@import '../Theme/Variables.scss'; 
+
+.app-header{
+    height: 60px;
+    width: 100%;
+    position: fixed;
+   background-color: $transparent-black;
+
+    .app-header-content{
+        height: inherit ;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        a{
+            color: $white; 
+        }
+    
+    }
+}
