@@ -1,0 +1,70 @@
+.container {
+  padding-left: 160px !important;
+  padding-right: 160px !important;
+}
+
+.flex-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-box a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+}
+
+.flex-box .vertical-space {
+  height: 20px;
+}
+
+.flex-box p {
+  margin: 0;
+  font-size: 13px;
+}
+
+.flex-box .image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-box .image-container img {
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.flex-box .section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.flex-box .my-col-1 {
+  background-color: #fcfcfa;
+  width: 35%;
+  padding: 25px 50px;
+}
+
+.flex-box .my-col-1 li {
+  font-size: 13px;
+}
+
+.flex-box .spacing {
+  width: 1%;
+}
+
+.flex-box .my-col-2 {
+  width: 65%;
+  padding: 25px 50px;
+}
+
+.flex-box .my-col-2 p span {
+  font-weight: bold;
+}
+/*# sourceMappingURL=global.css.map */
