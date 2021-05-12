@@ -1,3 +1,7 @@
+body {
+  background-color: red !important;
+}
+
 .flex-box {
   display: -webkit-box;
   display: -ms-flexbox;
