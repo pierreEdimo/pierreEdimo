@@ -11,7 +11,7 @@
 }
 
 .flex-box .space-between {
-  width: 2%;
+  width: 5%;
 }
 
 .flex-box .vertical-space {
@@ -49,12 +49,8 @@
   font-size: 13px;
 }
 
-.flex-box .spacing {
-  width: 1%;
-}
-
 .flex-box .my-col-2 {
-  width: 63%;
+  width: 60%;
 }
 
 .flex-box .my-col-2 p span {
