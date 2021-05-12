@@ -1,5 +1,8 @@
-.flex-box {
+body {
   background-color: #fcfcfa;
+}
+
+.flex-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
