@@ -1,5 +1,5 @@
 .flex-box{
-  
+   background-color: #fcfcfa;
     a{
         text-decoration: none;
         color: #000;
@@ -19,11 +19,11 @@
 
     .image-container{
         display: flex;
-        justify-content: center;
+      
         
         img{
-            width: 210px;
-            height: 210px;
+            width: 150px;
+            height: 150px;
             border-radius: 50%;
             vertical-align: middle;
         }
@@ -36,9 +36,9 @@
     
 
     .my-col-1{
-        background-color: #fcfcfa;
+       
         width: 35%;
-        padding: 25px 50px;
+        
         li{
             font-size: 13px;
         }
@@ -51,7 +51,7 @@
     .my-col-2{
         width: 65%;
         
-        padding: 25px 50px;
+        
 
         p{
             span{
