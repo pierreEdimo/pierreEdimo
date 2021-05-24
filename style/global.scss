@@ -68,13 +68,18 @@
 }
 
 .vertical-space{
-    height: 90px;
+    height: 100px;
 }
 
 .anschreiben-container {
   p {
     font-size: 13px;
     margin: 4px 0 4px 0;
+  }
+
+  i {
+    color: #2da1c6;
+    font-size: 16px;
   }
 
   a {
