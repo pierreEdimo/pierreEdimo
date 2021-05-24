@@ -2,6 +2,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .flex-box a {
@@ -72,7 +75,7 @@
 }
 
 .vertical-space {
-  height: 80px;
+  height: 50px;
 }
 
 .anschreiben-container p {
