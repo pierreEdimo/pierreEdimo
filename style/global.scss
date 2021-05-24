@@ -1,74 +1,86 @@
+.flex-box {
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin: 4px 0 4px 0;
+  }
 
-.flex-box{
-    a{
-        text-decoration: none;
-        color: #000;
-        font-size: 13px;
-    
+  i {
+    color: #2da1c6;
+    font-size: 16px;
+  }
+
+  .space-between {
+    width: 5%;
+
+    hr {
+      height: 100%;
+      width: 0;
+      border: 1px solid #2da1c6;
     }
+  }
 
-    i{
-        color: #2da1c6; 
-        font-size: 16px;
-    }
+  .vertical-space {
+    height: 20px;
+  }
 
-    .space-between{
-        width: 5%;
-       
+  display: flex;
 
-        hr{
-            height: 100%;
-            width: 0;
-            border: 1px solid #2da1c6;
-        }
-    }
+  p {
+    margin: 4px 0 4px 0;
+    font-size: 13px;
+  }
 
-    .vertical-space{
-        height: 20px;
-    }
-
+  .image-container {
     display: flex;
-    
-    p{
-        margin: 4px;
-        font-size: 13px;
-    }
 
-    .image-container{
-        display: flex;
-      
-        
-        img{
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            vertical-align: middle;
-        }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      vertical-align: middle;
     }
+  }
 
-    .section-title{
+  .section-title {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #2da1c6;
+  }
+
+  .my-col-1 {
+    width: 40%;
+    li {
+      font-size: 13px;
+    }
+  }
+
+  .my-col-2 {
+    width: 55%;
+    p {
+      span {
         font-weight: bold;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: #2da1c6; 
+      }
     }
-    
-
-    .my-col-1{
-        width: 40%;
-        li{
-            font-size: 13px;
-        }
-    }
-
-   
-    .my-col-2{
-        width: 55%;
-        p{
-            span{
-                font-weight: bold;
-            }
-        }
-    }
+  }
 }
 
+.vertical-space{
+    height: 90px;
+}
+
+.anschreiben-container {
+  p {
+    font-size: 13px;
+    margin: 4px 0 4px 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    margin: 4px 0 4px 0;
+  }
+}

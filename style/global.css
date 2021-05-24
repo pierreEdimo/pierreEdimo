@@ -8,6 +8,7 @@
   text-decoration: none;
   color: #000;
   font-size: 13px;
+  margin: 4px 0 4px 0;
 }
 
 .flex-box i {
@@ -30,7 +31,7 @@
 }
 
 .flex-box p {
-  margin: 4px;
+  margin: 4px 0 4px 0;
   font-size: 13px;
 }
 
@@ -68,5 +69,21 @@
 
 .flex-box .my-col-2 p span {
   font-weight: bold;
+}
+
+.vertical-space {
+  height: 90px;
+}
+
+.anschreiben-container p {
+  font-size: 13px;
+  margin: 4px 0 4px 0;
+}
+
+.anschreiben-container a {
+  text-decoration: none;
+  color: #000;
+  font-size: 13px;
+  margin: 4px 0 4px 0;
 }
 /*# sourceMappingURL=global.css.map */
