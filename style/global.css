@@ -77,6 +77,10 @@
   font-weight: bold;
 }
 
+.anschreiben-container {
+  height: 100vh;
+}
+
 .anschreiben-container p {
   font-size: 13px;
   margin: 4px 0 4px 0;
@@ -92,5 +96,19 @@
   color: #000;
   font-size: 13px;
   margin: 4px 0 4px 0;
+}
+
+.anschreiben-container .space-between {
+  height: 20px;
+}
+
+.anschreiben-container .datum {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 /*# sourceMappingURL=global.css.map */
