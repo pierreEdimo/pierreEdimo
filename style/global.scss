@@ -1,3 +1,13 @@
+.vertical-space {
+  height: 8px;
+}
+
+.flex-header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .flex-box {
     height: 100vh;
     padding: 20px;
@@ -25,12 +35,7 @@
     }
   }
 
-  .vertical-space {
-    height: 20px;
-  }
 
-  display: flex;
-  justify-content: center;
 
   p {
     margin: 4px 0 4px 0;
@@ -56,7 +61,7 @@
   }
 
   .my-col-1 {
-    width: 40%;
+    width: 100%;
     li {
       font-size: 13px;
     }
@@ -101,4 +106,17 @@
     display: flex;
     justify-content: flex-end;
   }
+}
+
+.formation-academique{
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.separator{
+  border: #2da1c6 solid 2px;
+  margin: 0;
+  padding: 0;
 }

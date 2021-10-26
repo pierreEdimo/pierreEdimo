@@ -1,12 +1,20 @@
-.flex-box {
-  height: 100vh;
-  padding: 20px;
+.vertical-space {
+  height: 8px;
+}
+
+.flex-header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-box {
+  height: 100vh;
+  padding: 20px;
 }
 
 .flex-box a {
@@ -30,10 +38,6 @@
   height: 100%;
   width: 0;
   border: 1px solid #2da1c6;
-}
-
-.flex-box .vertical-space {
-  height: 20px;
 }
 
 .flex-box p {
@@ -62,7 +66,7 @@
 }
 
 .flex-box .my-col-1 {
-  width: 40%;
+  width: 100%;
 }
 
 .flex-box .my-col-1 li {
@@ -110,5 +114,16 @@
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
+}
+
+.formation-academique p {
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+  border: #2da1c6 solid 2px;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=global.css.map */
