@@ -6,6 +6,7 @@ i build web- and mobileapplication
 - currently learning Flutter
 - currently learning Spring
 
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=pierreEdimo)](https://github.com/anuraghazra/github-readme-stats)
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=pierreEdimo&count_private=true)
 
