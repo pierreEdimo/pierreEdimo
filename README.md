@@ -1,10 +1,8 @@
 ### Hi there 👋
 
 I am a Fullstack developper 
-i build web- and mobileapplication
+i build web- and mobile-application
 
-- currently learning Flutter
-- currently learning Spring
 
 
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=pierreEdimo&count_private=true)
